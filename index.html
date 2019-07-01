@@ -7,13 +7,55 @@
         <title>Document</title>
     </head>
     <style>
-        logo {
+        .wrapper {
+            padding: 12px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: minmax(40px, auto);
+        }
+        a {
+            text-decoration-line: none;
+        }
+        .social{
+            margin-top: 6px;
+            display: grid;
+            grid-template-columns: 50px 50px;
+        }
+        .logo {
+            width: 100%;
             max-width: 500px;
+            min-width: 100px;
+        }
+        .social-btn {
+            max-width: 30px;
+        }
+        .main-img{
+            width: 100%;
         }
     </style>
     <body>
-        <main>
-            <img class="logo" src="./images/logo.png" alt="logo" width="500" />
+        <main class="wrapper">
+            <img class="logo" src="./images/logo_single_line.png" alt="logo" />
+            
+            <div class="social">
+                <a href="https://www.facebook.com/hackhorsham/">
+                <img
+                    class="social-btn"
+                    src="./images/f_logo_RGB-Blue_144.png"
+                    alt="logo"
+                />
+            </a>
+            <a href="https://twitter.com/HackHorsham">
+                <img
+                    class="social-btn"
+                    src="./images/Twitter_Social_Icon_Circle_Color.png"
+                    alt="logo"
+                />
+            </div>
+            <img class="main-img" src="/images/main_image_med.jpg" alt="">
+
+            
+            </a>
         </main>
     </body>
 </html>
