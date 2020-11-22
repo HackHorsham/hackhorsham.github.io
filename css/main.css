@@ -181,7 +181,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../images/code.jpg');
+    background-image: url('../images/logo-banner.png');
 }
 
 .banner .gradient {
@@ -232,133 +232,6 @@ a:hover {
     margin-right: 0;
 }
 
-
-.python-background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #fff;
-    padding-top: 90px;
-    position: relative;
-    text-transform: uppercase;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../images/python-background.jpg');
-}
-
-.python-background .gradient {
-    background: -moz-linear-gradient(-45deg, rgba(255, 0, 251, 0.5) 0%, rgba(0, 24, 255, 0.5) 100%);
-    background: -webkit-linear-gradient(-45deg, rgba(255, 0, 251, 0.5) 0%, rgba(0, 24, 255, 0.5) 100%);
-    background: linear-gradient(135deg, rgba(255, 0, 251, 0.5) 0%, rgba(0, 24, 255, 0.5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ff00fb', endColorstr='#800018ff', GradientType=1);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-}
-
-.python-background h1 {
-    font-size: 47px;
-    font-weight: 700;
-    letter-spacing: 4px;
-    padding-bottom: 12px;
-}
-
-.python-background p {
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    padding-bottom: 35px;
-}
-
-.python-background p .btn-primary,
-.btn-success {
-    width: 162px;
-    color: #000;
-    border: none;
-    font-size: 13px;
-    font-weight: 700;
-    margin-right: 10px;
-    padding: 19px 0;
-    border-radius: 3px;
-    letter-spacing: 1px;
-    background-color: rgba(255, 255, 255, 0.78);
-}
-
-.python-background p .btn-primary:hover {
-    color: white;
-}
-
-.python-background p .btn-success {
-    background-color: rgba(0, 225, 255, 0.87);
-    margin-right: 0;
-}
-
-
-.scratch-background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #fff;
-    padding-top: 90px;
-    position: relative;
-    text-transform: uppercase;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../images/scratch-background.jpg');
-}
-
-.scratch-background .gradient {
-    background: -moz-linear-gradient(-45deg, rgba(255, 0, 251, 0.5) 0%, rgba(0, 24, 255, 0.5) 100%);
-    background: -webkit-linear-gradient(-45deg, rgba(255, 0, 251, 0.5) 0%, rgba(0, 24, 255, 0.5) 100%);
-    background: linear-gradient(135deg, rgba(255, 0, 251, 0.5) 0%, rgba(0, 24, 255, 0.5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ff00fb', endColorstr='#800018ff', GradientType=1);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-}
-
-.scratch-background h1 {
-    font-size: 47px;
-    font-weight: 700;
-    letter-spacing: 4px;
-    padding-bottom: 12px;
-}
-
-.scratch-background p {
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    padding-bottom: 35px;
-}
-
-.scratch-background p .btn-primary,
-.btn-success {
-    width: 162px;
-    color: #000;
-    border: none;
-    font-size: 13px;
-    font-weight: 700;
-    margin-right: 10px;
-    padding: 19px 0;
-    border-radius: 3px;
-    letter-spacing: 1px;
-    background-color: rgba(255, 255, 255, 0.78);
-}
-
-.scratch-background p .btn-primary:hover {
-    color: white;
-}
-
-.scratch-background p .btn-success {
-    background-color: rgba(0, 225, 255, 0.87);
-    margin-right: 0;
-}
 /*== About Section Start ==*/
 
 .about .col,
