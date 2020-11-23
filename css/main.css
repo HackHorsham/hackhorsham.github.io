@@ -169,19 +169,20 @@ a:hover {
     color: rgb(2, 228, 230);
 }
 
+/*== Banner ==*/
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #fff;
+    color: rgb(10, 10, 10)
     padding-top: 90px;
     position: relative;
     text-transform: uppercase;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../images/logo-banner.png');
+    background-image: url('../images/logo-banner.jpg');
 }
 
 .banner .gradient {
